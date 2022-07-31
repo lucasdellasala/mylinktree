@@ -1,0 +1,126 @@
+body {
+    background-color: #011796;
+    color: gold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+}
+
+button {
+    height: 8vmin;
+    width: 15%;
+    word-wrap: break-all;
+    margin: 1% 0% 1% 0%;
+    background-color: #031eb6;
+    border-radius: 20px;
+    box-shadow: 10px 10px black;
+    color: gold;
+    cursor: pointer;
+    border: none;
+}
+
+a {
+    color: gold;
+}
+
+.center {
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-pic {
+    height: 20vmin;
+    pointer-events: none;
+    border-radius: 50%;
+    border: 3px solid gold;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2em 0 1em 0;
+}
+
+.social-media-logo {
+    margin: 0 1vmin;
+    height: 8vmin;
+    pointer-events: none;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.25);
+}
+
+.powered {
+    margin: 0 0 3vmin 0;
+}
+
+@media (max-width: 1000px) {
+    body {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 1.5rem;
+        height: 200px;
+        width: 50%;
+        word-wrap: break-all;
+        margin: 2% 0% 2% 0%;
+        background-color: #031eb6;
+        border-radius: 20px;
+        box-shadow: 15px 15px black;
+    }
+    
+    .profile-pic {
+        height: 30vmin;
+        pointer-events: none;
+        border-radius: 50%;
+        border: 10px solid gold;
+    }
+    
+    .media {
+        margin: 2em 0 2em 0;
+    }
+    
+    .social-media-logo {
+        margin: 0 1vmin;
+        height: 15vmin;
+    }
+
+    .powered {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width:1000px) and (max-width:1600px) {
+    body {
+        font-size: 20px;
+    }
+    
+    button {
+        width: 40%;
+    }
+}
