@@ -91,7 +91,7 @@ a {
         margin: 2% 0% 2% 0%;
         background-color: #031eb6;
         border-radius: 20px;
-        box-shadow: 15px 15px black;
+        box-shadow: 15px 15px rgba(0,0,0,0.6);
     }
     
     .profile-pic {
