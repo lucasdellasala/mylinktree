@@ -10,7 +10,7 @@ body {
 }
 
 button {
-    height: 8vmin;
+    height: auto;
     width: 15%;
     word-wrap: break-all;
     margin: 1% 0% 1% 0%;
@@ -37,6 +37,7 @@ a {
 }
 
 .profile-pic {
+    margin: 20vmin 0 0 0;
     height: 20vmin;
     pointer-events: none;
     border-radius: 50%;
